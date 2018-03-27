@@ -1,6 +1,6 @@
 var button = document.getElementById('solve');
 button.addEventListener('click', () => {
-    document.getElementById('solutions').textContent = solveQ();
+    document.getElementById('solutions').textContent = solveQF();
 });
 
 function changeElementClass(id, className) {
@@ -8,7 +8,7 @@ function changeElementClass(id, className) {
     el.className = className;
 }
 
-function solveQ() {
+function solveQF() {
     var a = document.getElementById('a').value;
     var b = document.getElementById('b').value;
     var c = document.getElementById('c').value;
